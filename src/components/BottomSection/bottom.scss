@@ -1,0 +1,23 @@
+.bottom-sec {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  .item {
+    height: 300px;
+    width: 300px;
+    box-shadow: rgba(185, 61, 41, 0.1) 0px 7px 29px 0px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    
+    .title {
+      margin-top: 5px;
+      color: #347cef;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .author, .date {
+      font-weight: bold;
+    }
+  }
+}
