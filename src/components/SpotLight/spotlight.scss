@@ -1,0 +1,27 @@
+.spotlight {
+  display: flex;
+  // flex-wrap: wrap;
+  margin-top: 150px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+  border-radius: 10px;
+
+  .spotlight-desc {
+    margin-right: 15px;
+    .title {
+      color: #ef4834;
+      font-size: 25px;
+      font-weight: 800;
+    }
+    .desc {
+      color: gray;
+    }
+    .copyright {
+      color: gray;
+    }
+    .author {
+      color: black;
+      font-weight: bold;
+    }
+  }
+}

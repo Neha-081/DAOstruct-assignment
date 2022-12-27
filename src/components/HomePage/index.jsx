@@ -1,13 +1,30 @@
 import React, { useEffect, useState } from "react";
-import "./home.css";
+import "./home.scss";
 import { getData } from "../../api";
+import SpotLight from "../SpotLight";
 
 const HomePage = () => {
 
+const [data, setData] = useState([]);
+
+//API call for fetching data
+  const getInfo = async () => {
+    try {
+      const response = await getData();
+      setData(response);
+    } catch (e) {
+      console.error('Error while fetching quotes info');
+    }
+  };
+
+  useEffect(() => {
+    getInfo();
+    // eslint-disable-next-line
+  }, []);
 
   return (
-    <div className="table-container">
-
+    <div className="container">
+    <SpotLight data={data} />
     </div>
   )
 };

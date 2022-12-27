@@ -1,0 +1,31 @@
+.static-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ef4834;
+  backdrop-filter: blur(5px);
+  transition: all 0.3s ease;
+  align-items: center;
+  height: 5.8rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  transition: box-shadow 0.1s;
+
+  .top-nav-links {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+  }
+
+  .my-name {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+  }
+}
