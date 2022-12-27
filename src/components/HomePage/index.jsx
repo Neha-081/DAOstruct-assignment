@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./home.scss";
 import { getData } from "../../api";
 import SpotLight from "../SpotLight";
+import HorizontalItems from "../HorizontaItems/HorizontalItems";
 
 const HomePage = () => {
 
@@ -25,6 +26,7 @@ const [data, setData] = useState([]);
   return (
     <div className="container">
     <SpotLight data={data} />
+    <HorizontalItems data={data} />
     </div>
   )
 };

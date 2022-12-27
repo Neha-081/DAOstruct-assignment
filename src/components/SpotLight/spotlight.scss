@@ -1,10 +1,11 @@
 .spotlight {
   display: flex;
   // flex-wrap: wrap;
-  margin-top: 150px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 120px;
+  box-shadow: rgba(185, 61, 41, 0.1) 0px 7px 29px 0px;
   padding: 20px;
   border-radius: 10px;
+  height: 350px;
 
   .spotlight-desc {
     margin-right: 15px;

@@ -11,7 +11,7 @@ const SpotLight = ({data}) => {
     <p className="desc">{data[0]?.explanation}</p>
     <p className="copyright"><span className="author">Author : </span>{data[0]?.copyright}</p>
    </div>
-   <img src={data[0]?.hdurl} alt="dataImage" height="350" width="300" />
+   <img src={data[0]?.hdurl} alt="dataImage" height="300" width="300" />
   </div>
   )
 
